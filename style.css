@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    /* margin:10px 10px 10px 10px; */
+
+}
+
+header h1{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 20px;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+header ul li{
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: 800;
+
+
+}
+
+header a{
+    text-decoration: none;
+    color: brown;
+}
+
+header a:hover{
+    color: orange;
+
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 50px;
+ }
+
+ section {
+    padding: 15px 15px;
+ }
+
+ section{
+    min-width: 100px;
+
+ }
+
+ section p{
+    padding: 20px 20px;
+    line-height: 1.7rem;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 10px;
+
+ }
+
+ section div{
+    text-align: center;
+    
+
+
+ }
+.um{
+    background-color: rgb(68, 231, 68);
+    border: solid 10px green;
+    padding: 50px;
+}
+
+.dois{
+    background-color: orange;
+    border: solid 10px rgb(231, 193, 122);
+    padding: 50px;
+
+}
+
+.tres{
+    background-color: rgb(219, 122, 138);
+    border: solid 10px pink;
+    padding: 50px;
+    
+}
+
+.quatro{
+    background-color: rgb(238, 68, 68);
+    border: solid 10px rgb(161, 74, 74);
+    padding: 50px;
+}
+
+footer{
+     position: relative;
+    color: #fff;
+    /* background-color: #806a5f; */
+    background: linear-gradient(rgba(255, 255, 255, 0.25) 0px, transparent 10px);
+    background-color: #7c665b;
+
+    background-size: 20px 20px;
+    opacity:calc(0.85);
+
+    background: 
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+footer ul li{
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;   
+}
+
+
+/* @media only screen and (max-width: 375px){
+    .container div{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap; 
+        gap: 50px;
+        
+    }
+} */
+
+
+
+
+
+
+
+
+
