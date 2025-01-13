@@ -27,6 +27,7 @@ header ul {
     list-style: none;
     padding-top: 20px;
     flex-wrap: wrap;
+    padding-bottom: 10px;
 
 }
 
@@ -45,6 +46,8 @@ header a{
 
 header a:hover{
     color: orange;
+    transition: all 1s;
+    transform: scale(1.1);
 
 }
 .container{
@@ -56,7 +59,7 @@ header a:hover{
  }
 
  section {
-    padding: 15px 15px;
+    /* padding: 15px 15px; */
  }
 
  section{
@@ -76,38 +79,45 @@ header a:hover{
 
  section div{
     text-align: center;
-    
+ }
 
+ h2{
+    text-align:left;
+    padding-top: 20px;
+    padding-left:20px;
 
  }
-.um{
-    background-color: rgb(68, 231, 68);
-    border: solid 10px green;
-    padding: 50px;
-}
-
-.dois{
-    background-color: orange;
-    border: solid 10px rgb(231, 193, 122);
-    padding: 50px;
+.um img{ 
+    margin: 0;
+    width: 50%;
 
 }
 
-.tres{
-    background-color: rgb(219, 122, 138);
-    border: solid 10px pink;
-    padding: 50px;
-    
+.dois img{
+    margin: 0;
+    width: 100%;
 }
 
-.quatro{
-    background-color: rgb(238, 68, 68);
-    border: solid 10px rgb(161, 74, 74);
-    padding: 50px;
+.tres img{
+    margin: 0;
+    width: 98%;   
+}
+
+.quatro img{
+    margin: 0;
+    width: 100%;
+   
+}
+
+.autora{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer{
-     position: relative;
+    /* position: relative; */
     color: #fff;
     /* background-color: #806a5f; */
     background: linear-gradient(rgba(255, 255, 255, 0.25) 0px, transparent 10px);
@@ -142,19 +152,45 @@ footer ul li{
     flex-wrap: wrap;
     text-align: center;
     padding: 7px;
-    font-size: 14px;   
+    font-size: 16px;   
 }
 
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
 
-/* @media only screen and (max-width: 375px){
-    .container div{
-        display: flex;
-        flex-direction:column;
-        flex-wrap: wrap; 
-        gap: 50px;
+}
+
+ @media screen and (min-width:1240px){
+
+    body{
+        margin: 0;
+        /* overflow-x: hidden; */
         
     }
-} */
+
+    h2{
+        margin-left: 400px;
+        margin-right: 500px;
+    }
+
+    p{
+        margin-left: 400px;
+        margin-right: 500px;
+    }
+
+
+    section div{
+        margin-left: 400px;
+        margin-right: 500px;
+        width: 700px;
+        
+    }
+
+    section h2{
+        text-align: center;
+    }
+ }
 
 
 
